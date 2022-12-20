@@ -1,0 +1,77 @@
+#reference {
+  display: block;
+  /* margin: var(--section-margin); */
+}
+
+.reference-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--section-padding);
+}
+
+.reference-title {
+  text-align: center;
+  font-size: var(--title-p-size);
+  color: var(--font-blue-color);
+}
+
+
+.card-container {
+  border-radius: 10px;
+  margin: 30px 40px;
+  max-width: 700px;
+}
+
+.reference-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  align-items: center;
+  justify-items: center;
+}
+.reference-card .card-photo {
+  grid-column: 1;
+  width: 200px;
+  height: 140px;
+  border-radius: 10%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reference-card .card-photo img {
+  width: 100%;
+  object-fit: cover;
+}
+.reference-card .card-info {
+  width: 100%;
+  grid-column: 2 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.reference-card .card-info h4 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.reference-card .card-info span {
+  font-size: 15px;
+  padding: 10px;
+  color: var(--font-gray-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+}
+
+/*# sourceMappingURL=reference.css.map */

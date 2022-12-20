@@ -1,0 +1,87 @@
+#contact {
+  display: block;
+  margin: var(--section-margin);
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+.contact-container .contact-title p {
+  text-align: center;
+  font-size: var(--title-p-size);
+  color: var(--font-blue-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--font-gray-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.contact-form .contact-info {
+  display: flex;
+  padding: 20px;
+}
+.contact-form .contact-info .contact-name,
+.contact-form .contact-info .contact-email {
+  min-width: 300px;
+}
+.contact-form .contact-info .contact-name label,
+.contact-form .contact-info .contact-email label {
+  font-size: 20px;
+}
+.contact-form .contact-info .contact-name input,
+.contact-form .contact-info .contact-email input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact-form .contact-info .contact-email {
+  margin-left: 20px;
+}
+.contact-form .contact-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+.contact-form .contact-message label {
+  font-size: 20px;
+}
+.contact-form .contact-message input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact-form .contact-submit-button {
+  margin: 10px 0;
+}
+.contact-form .contact-submit-button input {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: var(--button-bg-color);
+  border: 0;
+  padding: 20px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.contact-form .contact-submit-button input:hover {
+  background: white;
+  color:var(--button-bg-color);
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=contact.css.map */

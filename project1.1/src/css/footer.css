@@ -1,0 +1,18 @@
+.footer-area {
+    display: block;
+}
+
+.footer-container {
+    height: 200px;
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 20px;
+    color: var(--font-gray-color);
+}
+.footer-text p span {
+    color: white;
+}
